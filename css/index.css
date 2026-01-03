@@ -581,7 +581,8 @@ body{
     padding:2.5%;
 }
 .service{
-    height:380px;
+    min-height:380px;
+    height: auto;
     width:28%;
     margin: 1.5%;
     background-color: #191919;
@@ -621,18 +622,20 @@ body{
     position: relative;
     display: inline-block;
     z-index:2;
+    padding: 15px;
 }
 .service-description h2{
     padding: 10px;
     margin: 5px;
     font-weight: 200;
-    font-size: 25px;
+    font-size: 20px;
 }
 .service-description p{
     padding: 10px;
     font-weight: 200;
     font-size: 16px;
     opacity: .8;
+    line-height: 1.6;
 }
 #skills{
     width: 100%;
@@ -1350,16 +1353,7 @@ form button:hover{
   list-style: none;
 }
 
-/*
-
-For devices with smaller width like mobile phone
-
-
-*/
-
-
-
-
+/*For devices with smaller width like mobile phone*/
 
 @media only screen and (max-width: 550px){
     .header-content{
@@ -1498,7 +1492,8 @@ For devices with smaller width like mobile phone
         border-radius: 10%;
     }
     .service{
-        height:320px;
+        min-height:320px;
+        height: auto;
         width:90%;
         margin: 1.5%;
         background-color: #191919;
@@ -1983,7 +1978,7 @@ for tabs and large phones
         padding: 10px;
         margin: 5px;
         font-weight: 200;
-        font-size: 22px;
+        font-size: 20px;
     }
     .service-description p{
         padding: 10px;
@@ -2272,12 +2267,6 @@ for tabs and large phones
 }
 
 
-
-
-
-
-
-
 @media all and (max-width: 9000px) and (min-width: 1441px){
 
     .portfolio-image img{
@@ -2332,7 +2321,8 @@ for tabs and large phones
     
     }
     .service{
-        height:400px;
+        min-height:400px;
+        height: auto;
         width:28%;
         margin: 1.5%;
         padding: 10px;
