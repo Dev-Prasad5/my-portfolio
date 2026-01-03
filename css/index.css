@@ -506,9 +506,9 @@ body{
     padding: 30px;
     border-radius: 40px;
 }
-.about-img {
-    width: 550px;
-    height:auto;
+.about-img{
+    width: 500px;
+    height: auto;
     padding: 30px;
     padding-top: 10px;
     border-radius: 40px;
@@ -1484,9 +1484,9 @@ form button:hover{
         padding: 5px;
         border-radius: 10%;
     }
-    .about-img {
-        width: 75%;
-        height:250px;
+    .about-img{
+        width: auto;
+        height: auto;
         text-align: center;
         overflow: hidden;
         border-radius: 10%;
@@ -1939,9 +1939,9 @@ for tabs and large phones
         padding: 30px;
         border-radius: 40px;
     }
-    .about-img {
-        width: 550px;
-        height:auto;
+    .about-img{
+        width: 500px;
+        height: auto;
         padding: 30px;
         padding-top: 10px;
         border-radius: 40px;
@@ -2285,9 +2285,9 @@ for tabs and large phones
         border-radius: 34px;
         animation: opacity 1.4s ease ;
     }
-    .about-img {
+    .about-img{
         width: 40%;
-        height:450px;
+        height: 500px;
         padding: 30px;
         border-radius: 34px;
     }
